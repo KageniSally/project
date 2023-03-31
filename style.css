@@ -1,0 +1,197 @@
+*{
+   
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(7, 7, 24);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-align: right;
+    flex:1;
+}
+nav ul li a:hover{
+    color: rgb(18, 238, 18);
+}
+body{
+    background-color: rgb(7, 7, 24);
+    background-size:cover;
+}
+.introduction{
+    margin: auto;
+    padding-top: 10px;
+    height: 550px;
+    text-align: center;
+}
+.Nirajan{
+    width: 300px;
+    height: 400px;
+
+}
+.Nirajan:hover{
+    transform:scale(1.2);
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color:white ;
+    border: 1px solid rgb(18, 238, 18);
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: rgb(18, 238, 18);
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid rgb(18, 238, 18);
+    color: white ;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.education{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    background-color:rgb(22, 18, 34);
+    background-size: cover;
+    padding-top: 20px;
+}
+.education h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    background-color: rgb(22, 18, 34);
+
+}
+.education p{
+    color: #fff;
+}
+.button-edu{
+    display: inline-block;
+    text-decoration: none;
+    color:white ;
+    border: 1px solid rgb(18, 238, 18);
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: rgb(18, 238, 18);
+    position: relative;
+    cursor: pointer;
+}
+.button-edu:hover{
+    border: 1px solid rgb(18, 238, 18);
+    color: white ;
+    background-color: transparent;
+    transition: 1s;
+}
+h1{
+    
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(22, 18, 34);
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(22, 18, 34);
+    font-family: 'Times New Roman', Times, serif;
+}
+.experience{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background: rgb(22, 18, 34);
+    height: 300px;
+}
+.experienceT{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    background: rgb(22, 18, 34);
+}
+
+.tableH{
+    color:rgb(18, 238, 18) ;
+    font-size: 20px;
+}
+table th, tr, td{
+    border: 1px solid white;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+}
+.activities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background: rgb(22, 18, 34);
+    height: 250px;
+
+}
+.list{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    justify-content: center;
+}
+.list li{
+    list-style: none;
+    background-color: rgb(22, 18, 34);
+}
+.description{
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.link{
+font-size: 20px;
+text-decoration: none;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+.link a:hover{
+    color:rgb(18, 238, 18);
